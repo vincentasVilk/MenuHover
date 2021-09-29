@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+}
+
+body {
+  background: #DE8971;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+  color: white;
+}
+
+nav {
+  margin-top: 200px;
+  text-align: center;
+}
+
+a {
+  display: block;
+  color: #FCECDD;
+  font-size: 25px;
+  margin: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+  transform: scale(1.5);
+}
+
+nav:hover a {
+  color: #542E71;
+}
+
+nav a:hover {
+  font-size: 150%;
+  opacity: 0.6;
+  color: #FDBAF8;
+}
+
+nav a{ transition: all .2s ease-in-out; }
+nav a:hover { transform: scale(2.1); }
